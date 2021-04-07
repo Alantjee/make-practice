@@ -40,3 +40,8 @@ ggplot(dt, aes(x=polarity, color=retweet)) +
   geom_histogram(fill="white", alpha=0.5, position="identity") + ggtitle('Some histogram')
 ```
 
+```{r}
+summary(dt$nwords) 
+
+```
+

@@ -19,6 +19,6 @@ for line in con:
     text = text.replace('\t', '').replace('\n', '')
 
     outfile.write(obj.get('id_str')+'\t'+obj.get('created_at')+'\t'+text+'\n')
-    if (cnt>1000): break
+    if (cnt>2000): break
 
 print('done.')
